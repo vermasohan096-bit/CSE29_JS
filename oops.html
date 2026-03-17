@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>oops</title>
+</head>
+<body>
+    <script type="text/javascript">
+        var person = { name: "Sohan Verma",
+                age: 20,
+                isMarried: false,
+                address: {
+                    street:  "Delhi",
+                houseNo: 123
+                }
+                };
+            
+                console.log(person.name); // Output: Sohan Verma
+
+                var person2 = new Object(); 
+                person2.name = "Himanshu";
+                person2.age = 21;
+                person2.isMarried = false;
+                person2.address = {};
+                person2.address.street = "nagar road";
+                person2['address']['flatNo'] = 45;
+
+                console.log(person2); 
+                document.write("Name: " + person2.name + "<br>");
+                document.write("Age: " + person2.age + "<br>"); 
+                
+        
+    </script>
+    
+</body>
+</html>
